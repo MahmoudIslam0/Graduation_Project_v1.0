@@ -60,7 +60,7 @@ jobs:
         with:
           name: python-app
 
-      # Deploy to Azure
+      # Deploy to Azure using Azure CLI
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
