@@ -1,7 +1,7 @@
 name: Build and deploy Python app to Azure Web App
 
 env:
-  AZURE_WEBAPP_NAME: grad-similarity-api-gfgtcmazbheyc8a3
+  AZURE_WEBAPP_NAME: grad-similarity-api
   PYTHON_VERSION: '3.11'
 
 on:
